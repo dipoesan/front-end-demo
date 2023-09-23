@@ -42,7 +42,7 @@ jobs:
         with:
           repository: dipoesan/gitops
           path: ./gitops
-          ref: k-argo
+          ref: ''
           token: ${{ secrets.REPO_PAT }}
       
       - name: update kustomization in gitops
